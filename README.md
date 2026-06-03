@@ -1,46 +1,40 @@
-# Batuhan Aslan
+# AI Agent Systems Portfolio
 
-I build small, practical projects around AI evaluation, localization quality, workflow automation, and agent tooling.
+Focused on practical AI-agent engineering: evaluation, tool-use, memory, safety gates, and observable automation.
 
-## Featured work
+## Featured repositories
 
-### Prompt Evaluation Case Studies
-Python examples for scoring AI outputs with weighted rubrics, issue detection, and Turkish localization checks.
+### agent-evaluation-harness
+A small evaluation framework for scoring AI-agent outputs with deterministic rubrics, regression datasets, and JSON/Markdown reports.
 
-- Rubric-based scoring
-- Localization QA examples
-- CLI workflow for repeatable checks
-- Tests for scoring behavior
+### tool-calling-agent-lab
+A minimal but testable tool-calling agent runtime with a planner, tool registry, risk gates, execution traces, and deterministic examples.
 
-Repository: https://github.com/codelifterr/prompt-evaluation-case-studies
+### prompt-evaluation-case-studies
+Case studies for AI output review: instruction following, hallucination risk, localization quality, and scoring explanations.
 
-### AI Agent Playbook
-Lightweight Python utilities for designing safer AI-agent workflows: task patterns, risk gates, and human approval boundaries.
+### ai-agent-playbook
+Reusable patterns for human-in-the-loop agent workflows, risk levels, approval boundaries, and operational controls.
 
-Repository: https://github.com/codelifterr/ai-agent-playbook
+### ai-agent-portfolio
+Compact workflow-runner examples showing planning, evidence collection, tool abstraction, and summary generation.
 
-### AI Agent Portfolio
-A minimal workflow-runner project that demonstrates task planning, tool abstractions, evidence collection, and final summaries.
+## Technical focus
 
-Repository: https://github.com/codelifterr/ai-agent-portfolio
+- AI-agent architecture
+- Tool calling and workflow orchestration
+- AI output evaluation and regression testing
+- Prompt quality and instruction-following checks
+- Human approval gates for risky automation
+- Lightweight Python CLIs and testable examples
 
-## Focus areas
+## Repository standard
 
-- AI output evaluation
-- Prompt quality review
-- Turkish localization QA
-- Workflow automation
-- Lightweight Python CLIs
-- Human-in-the-loop agent design
+The public repos are designed to be inspectable:
 
-## Currently improving
-
-- More realistic AI-evaluation case studies
-- Better examples and tests for agent workflow patterns
-- Practical automation projects that are easy to run and inspect
-
-## Contact
-
-- GitHub: https://github.com/codelifterr
-- LinkedIn: https://www.linkedin.com/in/batuhan-aslan-8835191b1/
-- Email: batuhanapplication@gmail.com
+- runnable Python examples
+- CLI entry points
+- sample inputs
+- unit tests
+- clear README documentation
+- no private data or personal contact details
